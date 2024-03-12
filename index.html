@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./style.css" type="text/css" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Primary Meta Tags -->
+    <title>Marion || Developer</title>
+  </head>
+  <body>
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <nav class="flex items-center justify-between py-8">
+        <div class="logo">
+          <img class="w-40 h-15" src="/logo.png" alt="" />
+        </div>
+        <ul class="hidden md:flex flex-row gap-10">
+          <li class="text-sm font-rubik font-normal text-white uppercase">
+            <a href="#work">My Works</a>
+          </li>
+          <li class="text-sm font-rubik font-normal text-white uppercase">
+            <a href="#aboutMe">About Me</a>
+          </li>
+          <li class="text-sm font-rubik font-normal text-white uppercase">
+            <a href="#socials">Socials</a>
+          </li>
+        </ul>
+        <div class="md:hidden block">
+          <svg
+            viewBox="0 0 48 48"
+            xmlns="http://www.w3.org/2000/svg"
+            height="1.8em"
+            width="1.8em"
+            class="text-white"
+            id="btn"
+          >
+            <path
+              fill="currentColor"
+              d="M7.5 36q-.65 0-1.075-.425Q6 35.15 6 34.5q0-.65.425-1.075Q6.85 33 7.5 33h33q.65 0 1.075.425Q42 33.85 42 34.5q0 .65-.425 1.075Q41.15 36 40.5 36Zm0-10.5q-.65 0-1.075-.425Q6 24.65 6 24q0-.65.425-1.075Q6.85 22.5 7.5 22.5h33q.65 0 1.075.425Q42 23.35 42 24q0 .65-.425 1.075-.425.425-1.075.425Zm0-10.5q-.65 0-1.075-.425Q6 14.15 6 13.5q0-.65.425-1.075Q6.85 12 7.5 12h33q.65 0 1.075.425Q42 12.85 42 13.5q0 .65-.425 1.075Q41.15 15 40.5 15Z"
+            />
+          </svg>
+          <div class="md:hidden">
+            <ul
+              id="menu"
+              class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-zinc-900 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+            >
+              <li class="text-sm font-rubik font-normal text-white uppercase">
+                  Home
+              </li>
+              <li class="text-sm font-rubik font-normal text-white uppercase">
+                  <a href="#work">My Works</a>
+              </li>
+              <li class="text-sm font-rubik font-normal text-white uppercase">
+                  <a href="#aboutMe">About Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section
+        id="home"
+        class="my-28"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+      >
+        <div class="flex flex-col items-center justify-center px-4">
+          <section class="img-bg md:right-1/4 md:top-[10%]"></section>
+          <h1 class="font-syne font-bold text-4xl text-white text-center">
+            Website development | Back-end development | Customer Service
+          </h1>
+            <a href="#work">
+                <button
+                       class="bg-primary w-48 h-10 rounded-full flex flex-row items-center justify-center mt-12"
+                   >
+                       <span class="font-bold font-rubik text-xs text-gray-100">
+                           Explore Work
+                       </span>
+               </button>
+            </a>
+        </div>
+      </section>
+      <section
+        id="about"
+        class="flex md:flex-row flex-col-reverse justify-between gap-10"
+        
+      >
+        <section class="hidden md:block img-bg left-4 mt-14"></section>
+        <div class="md:w-2/3 m-auto" data-aos="fade-left"
+        data-aos-duration="1000">
+          <h2 class="text-3xl font-syne font-bold text-white">
+            Let’s get to know about me closer
+          </h2>
+          <p class="text-zinc-500 font-rubik font-thin text-sm w-full mt-6">
+            I'm Marion. A developer focusing on back-end development
+            with a discerning commitment to customer service. This portfolio showcases a wide range
+            of works in programming basic web apps, online training and Computer Science courses, 
+            and customer service as Auto-mechanic. 
+          </p>
+              <a href="#aboutMe">
+                   <button
+                       class="bg-primary w-48 h-10 rounded-full flex flex-row items-center justify-center mt-12"
+                   >
+                       <span class="font-bold font-rubik text-xs text-gray-100">
+                           Discover more about me
+                   </span>
+               </button>
+              </a>
+        </div>
+        <div data-aos="fade-left"
+        data-aos-duration="1000">
+          <img
+            class="w-full h-full object-contain"
+            src="/profile.png"
+            alt="profile"
+          />
+        </div>
+      </section>
+      <section
+        id="work"
+        class="my-20 flex items-center justify-center flex-col"
+      >
+        <h2 class="text-2xl font-syne font-bold text-white text-center">
+          My projects highlight
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+          <div class="p-4" data-aos="flip-right" data-aos-duration="1000">
+            <img src="/project-1.gif" alt="Image" class="w-full h-auto" />
+            <div class="mt-4">
+                <a href="https://github.com/ran1001001/boot.dev/tree/main/personal_projects/game-of-life">
+                    <h2 class="text-lg font-bold font-syne text-white underline">
+                        Conway's Game of Life
+                    </h2>
+                </a>
+              <div class="mt-2">
+                <p class="text-base text-gray-500 font-rubik">
+                  Details:
+                  <span class="text-sm text-white font-rubik">
+                        Conway's Game of Life using HTMX for a dynamic and interactive experience.
+                        User can interact with the game board directly in the browser, triggering server-side updates without refresh. 
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="p-4" data-aos="flip-left" data-aos-duration="1000">
+            <img src="/project-2.gif" alt="Image" class="w-full h-auto" />
+            <div class="mt-4">
+               <a href="https://github.com/ran1001001/web_crawler">
+                   <h2 class="text-lg font-bold font-syne text-white underline">
+                       Web Crawler  
+                   </h2>
+               </a>
+              <div class="mt-2">
+                <p class="text-base text-gray-500 font-rubik">
+                  Details:
+                  <span class="text-sm text-white font-rubik">
+                        A Node.js web crawler that analyzes a website's internal linking structure.
+                        This scraper helps SEO professionals by providing valuable insights into how pages are connected within a website, aiding in optimization strategies.
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="p-4" data-aos="flip-right" data-aos-duration="1000">
+            <img src="/project-3.gif" alt="Image" class="w-full h-auto" />
+            <div class="mt-4">
+                <a href="https://github.com/ran1001001/testRepo/blob/master/RkPrSr.html">
+                    <h2 class="text-lg font-bold font-syne text-white underline">Rock, Paper and Scissors game using "localStorage"</h2>
+                </a>
+              <div class="mt-2">
+                <p class="text-base text-gray-500 font-rubik">
+                  Details:
+                  <span class="text-sm text-white font-rubik">
+                        Built a classic Rock-Paper-Scissors game using JavaScript, HTML, and plain CSS.
+                        It Leverages localStorage to persistently store game scores, ensuring wins
+                        and losses are tracked even after refreshing the browser. This interactive 
+                        project demonstrates experience in front-end development
+                        and the use of localStorage for user data persistence.
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="p-4" data-aos="flip-left" data-aos-duration="1000">
+            <img src="/project-4.2.png" alt="Image" class="w-full h-auto" />
+            <img src="/project-4.gif" alt="Image" class="w-full h-auto" />
+            <div class="mt-4">
+              <a href="https://www.boot.dev/u/vigilantscore47">
+               <h2 class="text-lg font-bold font-syne text-white underline">
+                   boot.dev's back-end development course
+               </h2>
+              </a>
+              <div class="mt-2">
+                <p class="text-base text-gray-500 font-rubik">
+                  Details:
+                  <span class="text-sm text-white font-rubik">
+                        Took advantage of boot.dev's self-paced online learning platform to solidify my back-end development skills.
+                        This course focused on building personal projects to escape "tutorial hell" and solidify my practical knowledge.
+                        This approach allowed me to gain hands-on experience with Python and JavaScript, languages commonly used in 
+                        back-end and front-end development, respectively.
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/ran1001001?tab=repositories">
+          <button
+              class="border-primary border-2 hover:bg-primary w-60 h-10 rounded-full flex flex-row items-center justify-center mt-8"
+          >
+              <span class="font-bold font-rubik text-xs text-gray-100">
+                  Explore more projects on Github
+              </span>
+          </button>
+      </a>
+      </section>
+      <section
+        id="work"
+        class="my-20 flex items-center justify-center flex-col"
+      >
+        <h2 class="text-2xl font-syne font-bold text-white text-center">
+          Customer Service
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+          <div class="p-4" data-aos="flip-right" data-aos-duration="1000">
+            <img src="/project-1.png" alt="Image" class="w-full h-auto" />
+            <div class="mt-4">
+              <h2 class="text-lg font-bold font-syne text-white">
+                Auto-mechanic assistant
+              </h2>
+              <div class="mt-2">
+                <p class="text-base text-gray-500 font-rubik">
+                  <span class="text-sm text-white font-rubik">
+                    • Handling customer phone calls.
+                    <br>
+                    • Assisted in diagnosing and repairing automotive issues across different systems, including cooling systems and electrical components.
+                    <br>
+                    • Demonstrated a proactive approach to problem-solving and hands-on tasks.
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="p-4" data-aos="flip-right" data-aos-duration="1000">
+            <img src="/project-1.png" alt="Image" class="w-full h-auto" />
+          </div>
+        </div>
+      </section>
+      <section
+        id="aboutMe"
+        class="flex flex-row flex-col-reverse gap-10 mb-16"
+        data-aos="zoom-in"
+      >
+        <section class="hidden md:block img-bg left-4 mt-4"></section>
+        <div class="">
+          <div class="flex justify-between">
+            <h2 class="font-syne text-4xl text-white font-bold">About Me</h2>
+            <img
+              class="md:h-20 h-[28px] w-20 object-contain"
+              src="/quote.svg"
+              alt=""
+            />
+          </div>
+          <div class="mt-2 pr-20">
+            <p class="font-bold text-white">Programming Career:</p>
+            <p class="text-sm font-rubik font-thin text-left text-slate-500">
+            I'm Marion, a developer with a strong foundation in back-end development
+            and a passion for creating web applications. 
+            While I honed my technical skills by building basic web apps
+            like simple blog app, to-do lists, and even web scraper, I also broadened my knowledge
+            through online training and courses. 
+            This dedication to continuous learning recently led me to take a coding bootcamp,
+            allowing me to delve deeper into the world of programming and refine my skills in areas
+            like web scraping and building dynamic applications using frameworks like Django and Htmx.
+            </p>
+            <br>
+            <p class="font-bold text-white">Customer Service Role:</p>
+            <p class="text-sm font-rubik font-thin text-left text-slate-500">
+            My commitment to exceptional service extends beyond programming.  
+            In my previous role as an assistant auto-mechanic, 
+            I developed a keen understanding of the importance of exceptional 
+            customer service. I handled customer phone calls, actively listened
+            to their concerns, and assisted in diagnosing and repairing their vehicles. 
+            This experience instilled in me a strong sense of empathy and the ability 
+            to communicate clearly and effectively, even in technical situations –  qualities 
+            that I believe will translate well into collaborating with clients.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="py-8 px-12 bg-zinc-900">
+      <div id="socials" class="my-4 text-center">
+        <h4 class="text-md font-syne font-bold text-primary">
+          Get in Touch With Me
+        </h4>
+        <h2
+          class="text-2xl font-syne font-bold text-white lowercase underline mt-2"
+        >
+          marionlove07@gmail.com
+        </h2>
+        <h2
+          class="text-2xl font-syne font-bold text-white underline mt-2"
+        >
+           <a href="https://twitter.com/ran1001001">@ran1001001</a>
+        </h2>
+        <h2
+          class="text-2xl font-syne font-bold text-white underline mt-2"
+        >
+           <a href="https://github.com/ran1001001">@ran37</a>
+        </h2>
+        <h2
+          class="text-2xl font-syne font-bold text-white underline mt-2"
+        >
+          󰌻 <a href="https://www.linkedin.com/in/marion37/">@marion37</a>
+        </h2>
+      </div>
+      <div
+        class="flex flex-col md:flex-row justify-between gap-10 mt-20 items-center"
+      >
+        <div class="my-auto">
+          <img class="w-40 h-15" src="/logo.png" alt="" />
+        </div>
+        <div>
+          <h4 class="text-md font-syne font-bold text-white">
+                Baguio proper, Baguio Dist., Davao City
+          </h4>
+        </div>
+        <div>
+          <h4 class="text-md font-syne font-bold text-white">0968-572-7250</h4>
+        </div>
+      </div>
+      <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
+      <h4 class="text-md font-syne font-bold text-white text-center">
+        &copy; 2024. All rights reserved.
+      </h4>
+      <p class="text-sky-600 underline font-syne text-center text-sm font-extralight mt-2">
+          Templ with
+        <a href="https://github.com/Armanidrisi" target="_blank"
+          >Arman Idrisi
+        </a>
+      </p>
+    </footer>
+    <script src="./main.js" type="module" charset="utf-8"></script>
+  </body>
+</html>
